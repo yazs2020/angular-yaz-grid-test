@@ -1,0 +1,31 @@
+<div class="main-wrapper">
+  <div class="container sidebar-expanded" id="main-section">
+    <div class="right-content" id="content-section">
+      <div class="content k-content" role="application">
+        <div class="grid-wrapper">
+    <ejs-grid #grid [dataSource]="data" allowPaging="true" height="100%" width="100%" [pageSettings]="initialPage" (dataBound)="dataBound()">
+<e-columns>
+                    <e-column field="OrderID" headerText="Order ID"  minWidth="200" width="240" maxWidth="250" ></e-column>
+                    
+                    <e-column field="OrderID1" headerText="Order ID"  minWidth="200" width="240" maxWidth="250" ></e-column>
+                    <e-column field="OrderID2" headerText="Order ID"  minWidth="200" width="240" maxWidth="250" ></e-column>
+                    <e-column field="OrderID3" headerText="Order ID"  minWidth="200" width="240" maxWidth="250" ></e-column>
+                    <e-column field="OrderID4" headerText="Order ID"  minWidth="200" width="240" maxWidth="250" ></e-column>
+                    <e-column field="OrderID5" headerText="Order ID"  minWidth="200" width="240" maxWidth="250" ></e-column>
+                    <e-column field="OrderID6" headerText="Order ID"  minWidth="200" width="240" maxWidth="250" ></e-column>
+                    <e-column field="OrderID7" headerText="Order ID"  minWidth="200" width="240" maxWidth="250" ></e-column>
+
+                    <e-column field="CustomerID" headerText="Customer ID" minWidth=500 width=540 maxWidth=550></e-column>
+                    <e-column field="ShipCity" headerText="Ship City" minWidth="200" width="240" maxWidth="250"></e-column>
+                    <e-column field="ShipName" headerText="Ship Name"  minWidth="200" width="240" maxWidth="250"></e-column>
+                    <e-column field="ShipCountry" headerText="Ship Country"   minWidth="200" width="240" maxWidth="250"></e-column>
+                    <e-column field="ShipAddress" headerText="Ship Address" minWidth="200" width="240" maxWidth="250"></e-column>
+                    <e-column field="Freight" headerText="Freight" minWidth="200" width="240" maxWidth="250"></e-column>
+                </e-columns>
+    </ejs-grid>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
