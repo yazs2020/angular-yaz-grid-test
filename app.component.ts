@@ -3,7 +3,8 @@ import { GridComponent } from '@syncfusion/ej2-angular-grids';
 
 @Component({
     selector: 'app-root',
-    templateUrl: 'app.component.html'
+    templateUrl: 'app.component.html',
+    styleUrls: [ 'site.css', 'material-edited.css', 'myaapicons.css' ]
 })
 export class AppComponent {
     public data: any[];
